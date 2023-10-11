@@ -1,0 +1,159 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3789241703" file="C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1\SistemadeVigilancia.prj" location="C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1" name="SistemadeVigilancia" preferred-package-location="C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1\SistemadeVigilancia\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>VigilanciaMatlab</param.appname>
+    <param.icon>${PROJECT_ROOT}\SistemadeVigilancia_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\SistemadeVigilancia_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\SistemadeVigilancia_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\SistemadeVigilancia_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\SistemadeVigilancia_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Juan Manuel Peña</param.authnamewatermark>
+    <param.email>juanmaptcg@gmail.com</param.email>
+    <param.company>UMA</param.company>
+    <param.summary>This app is included in the development of a domestic surveillance video system composed of a webcam and a PC using the MATLAB environment.</param.summary>
+    <param.description>This app is included in the development of a domestic surveillance video system composed of a webcam and a PC using the MATLAB environment. The objective is both to modify the classic USB webcam to endow it with the functionality of a surveillance camera, and to develop a software that enhances this USB camera. The ability to become a useful (developing an intuitive user interface) and reliable surveillance system, and the performance of the system that has been created, will be tested. With this, it is concluded that it is possible to develop a system which will meet the mentioned objectives, despite some upgrades can be performed for difficult situations (noise, big shadosws, etc). Finally, it will be concluded that it is possible to build a video surveillance system using a modified webcam (sacrificing the image quality in situations lit by an incandescent source) with simple tools, MATLAB and its App Designer.</param.description>
+    <param.screenshot>C:\Users\juanm\Downloads\anton-repponen-wxxAx26SXys-unsplash.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\UMA\VigilanciaMatlab\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>C:\Users\juanm\Desktop\TFG\photo_2020-02-10_12-20-31.jpg</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\SistemadeVigilancia\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\SistemadeVigilancia\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\SistemadeVigilancia\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\SistemadeVigilancia</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="OS Generic Video Interface" enabled="true" name="OS Generic Video Interface" product="Image Acquisition Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 This app is included in the development of a domestic surveillance video system composed of a webcam and a PC using the MATLAB environment. The objective is both to modify the classic USB webcam to endow it with the functionality of a surveillance camera, and to develop a software that enhances this USB camera. The ability to become a useful (developing an intuitive user interface) and reliable surveillance system, and the performance of the system that has been created, will be tested. With this, it is concluded that it is possible to develop a system which will meet the mentioned objectives, despite some upgrades can be performed for difficult situations (noise, big shadosws, etc). Finally, it will be concluded that it is possible to build a video surveillance system using a modified webcam (sacrificing the image quality in situations lit by an incandescent source) with simple tools, MATLAB and its App Designer.</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Videovigilancia.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\1553453721511-0.png</file>
+      <file>${PROJECT_ROOT}\advanced_grid_control.mlapp</file>
+      <file>${PROJECT_ROOT}\arrowGUI.jpg</file>
+      <file>${PROJECT_ROOT}\BotTelegramConfig.mlapp</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\actualizar_fondo_avanzado.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\angle_inside_interval.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\config_cam.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\configuration.mat</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\countandsize.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\device_name_list.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\grid.mat</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\hour_inside_interval.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\load_configuration.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\movement_detected.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\MovementShape.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\not_detected.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\submuestreo.m</file>
+      <file>${PROJECT_ROOT}\FUNCTIONS\vector_movimiento.m</file>
+      <file>${PROJECT_ROOT}\help-butt.png</file>
+      <file>${PROJECT_ROOT}\info-butt.png</file>
+      <file>${PROJECT_ROOT}\information.mlapp</file>
+      <file>${PROJECT_ROOT}\Manual Sistema de Videovigilancia.pdf</file>
+      <file>${PROJECT_ROOT}\not_running.jpg</file>
+      <file>${PROJECT_ROOT}\notify_detection.mlapp</file>
+      <file>${PROJECT_ROOT}\save_configuration.m</file>
+      <file>${PROJECT_ROOT}\void_visor.jpg</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\SistemadeVigilancia\for_testing" name="splash.png" optional="false">C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1\SistemadeVigilancia\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\SistemadeVigilancia\for_testing" name="VigilanciaMatlab.exe" optional="false">C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1\SistemadeVigilancia\for_testing\VigilanciaMatlab.exe</file>
+      <file location="${PROJECT_ROOT}\SistemadeVigilancia\for_testing" name="readme.txt" optional="true">C:\Users\juanm\Desktop\TFG\CODING\COMPLETE VERSION 1\SistemadeVigilancia\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
